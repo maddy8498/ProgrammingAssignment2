@@ -1,7 +1,9 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+## overall they'll save time and make things faster 
 
 ## Write a short comment describing this function
+## This function will make a cache which can be later accessed accross environments
 
 makeCacheMatrix <- function(x = matrix()) { m = NULL
         set <- function (y){
@@ -20,6 +22,8 @@ makeCacheMatrix <- function(x = matrix()) { m = NULL
 
 
 ## Write a short comment describing this function
+## this function inverts the matrix 
+##can be later accessed instead of redoing the same calculation 
 
 cacheSolve <- function(x, ...) {
                 m <- x$getinv()
